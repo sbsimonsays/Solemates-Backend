@@ -1,6 +1,5 @@
 const express = require("express");
 const apparels = express.Router();
-const confirmHealth = require("../confirmHealth.js");
 const checkName = require("../validations/checkName.js");
 
 //QUERIES
